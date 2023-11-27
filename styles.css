@@ -1,0 +1,101 @@
+body{
+    background-image: url(brick.png);
+    padding: 10px;
+}
+
+.pink{
+    background-color: rgb(247, 136, 168);
+    font-size: 20px;
+}
+
+h2{
+    font-family: 'gill sans mt';
+    font-size: 30px;
+    color: rgb(109, 66, 66)
+  }
+
+  h3{
+    font-family: 'corbel';
+    font-size: 20px;
+    color: rgb(141, 86, 86)
+  }
+
+.content11{
+    background-color:rgba(251, 128, 163, 0.138);
+    padding: 10px;
+}
+.bigger{
+    font-size: 25px;
+    font-family: 'cambria';
+}
+.bpink{
+    background-color: rgb(211, 74, 113);
+}
+
+.text-bpink{
+  color: rgb(211, 74, 113);
+}
+
+.text-topic{
+    font-family: 'segoe print';
+    color:rgb(109, 66, 66);
+}
+
+.textblack{
+  color:rgb(109, 66, 66);
+}
+
+.project {
+    display: inline-flex;
+    flex-direction:row;
+    text-align: center;
+}
+
+.toabove{
+  width: 20%;
+  text-align: center;
+  margin-left: 75%;
+  margin-right: 10%;
+  color: white;
+  font-weight: bold;
+  border: 0px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.toabove:hover{
+  background-color: rgb(229, 114, 146);
+}
+
+a:hover{
+  background-color: rgb(229, 114, 146);
+  color: white;
+}
+
+nav.topp{
+  top: 9%;
+}
+
+.white{
+  background-color: rgb(255, 180, 201);
+}
+
+.propic-caption, .desc{
+  display: none;
+}
+
+@media screen and (max-width:990px){
+  .project img{
+    height: 300px;
+  }
+  .project{
+    flex-direction:column;
+  }
+}
+
+@media screen and (max-width:1101px){ 
+  nav.topp{
+    top: 12%;
+  }
+  
+}
